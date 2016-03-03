@@ -71,6 +71,7 @@ GEM
     execjs (2.6.0)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
+    gmaps4rails (2.1.2)
     grit (2.0.0)
       diff-lcs (>= 1.1.2)
       mime-types (>= 1.15)
@@ -96,6 +97,8 @@ GEM
       railties (>= 4.2.0)
       thor (>= 0.14, < 2.0)
     json (1.8.3)
+    lodash-rails (4.5.1)
+      railties (>= 3.1)
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
     mail (2.6.3)
@@ -220,9 +223,11 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass (~> 3.3.6)
   coffee-rails (~> 4.1.0)
+  gmaps4rails
   jazz_hands
   jbuilder (~> 2.0)
   jquery-rails
+  lodash-rails
   pg (~> 0.15)
   rails (= 4.2.5)
   rspec-rails (~> 3.0)
