@@ -1,0 +1,17 @@
+#map-canvas {
+  height: 384px;
+  width: 100%;
+}
+
+#canvas-wrapper {
+  position: fixed;
+  top: 51px;
+  min-width: 360px;
+  // -webkit-user-select: none;
+}
+
+.navbar {
+  margin-bottom: 0;
+  left: 0px;
+  top: 0px;
+}
